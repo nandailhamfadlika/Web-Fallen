@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="description" content="FALLEN — Official 2D Platform Fighting Game by Noxvera Studio. Rebut takhta Kursi Fallen di atas arena melayang dan hadapi jurang kehampaan!">
     <title>FALLEN — Official Game Website | Noxvera Studio</title>
     <link rel="icon" type="image/png" href="{{ asset('assets/branding/icon.png') }}">
