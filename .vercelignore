@@ -1,0 +1,8 @@
+.git
+.github
+.agents
+asset/
+node_modules/
+tests/
+skills-lock.json
+*.md

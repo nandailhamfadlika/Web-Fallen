@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'Metal Mania';
+    src: url('/assets/fonts/MetalMania-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Metal Mania', cursive, sans-serif;
+    --font-heading: 'Cinzel', serif;
+    
+    --color-void: #07080b;
+    --color-obsidian-950: #0b0c10;
+    --color-obsidian-900: #12141a;
+    --color-obsidian-800: #1a1d26;
+    --color-obsidian-700: #262a36;
+    
+    --color-gold-400: #fbbf24;
+    --color-gold-500: #f59e0b;
+    --color-gold-600: #d97706;
+    
+    --color-crimson-500: #ef4444;
+    --color-crimson-600: #dc2626;
+    --color-crimson-700: #b91c1c;
+}
+
+.font-metal {
+    font-family: 'Metal Mania', cursive, sans-serif;
+}
+
+.font-cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.bg-vignette {
+    background: radial-gradient(circle at 50% 20%, rgba(217, 119, 6, 0.08) 0%, rgba(11, 12, 16, 0.95) 60%, #07080b 100%);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #0b0c10;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #262a36;
+    border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #d97706;
+}
